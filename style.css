@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+.head {
+    display: block;
+    font-family: sans-serif;
+}
+.mart {
+    float: left;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.menu {
+    text-transform: uppercase;
+    list-style: none;
+    margin-right: 15px;
+    float: right;
+    font-size: 16px;
+
+}
+.menu-item {
+    display: inline-block;
+    float: right;
+    margin: 0 15px;
+}
+.menu-link {
+    text-decoration: none;
+}
+.menu-link-home {
+    color: rgb(26, 188, 156);
+    text-decoration: none;
+}
+.clearfix {
+    margin-top: 100px;
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.title {
+    font-size: 48px;
+    font-family: sans-serif;
+    color: rgb(81,81,81);
+    text-transform: uppercase;
+    text-align: center;
+}
+.title::after {
+    content: '';
+    background-color: rgb(26, 188, 156);
+    width: 164px;
+    height: 7px;
+    display: block;
+    margin: 20px auto;
+}
+.card{
+    width: 255px;
+    height: 320px;
+    cursor: pointer;
+    float: left;
+    margin: calc(93px - 48px) 15px 30px;
+}
+.card-img {
+    margin-bottom: 0;
+}
+.card-text {
+    line-height: calc(320px - 280px);
+    background-color: #323232;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    transition-duration: 0,3s;
+}
+.card-title{
+    color: white;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+.card-price {
+    background-color: #8c8c8c;
+    color: white;
+    line-height: calc(320px - 280px);
+    float: right;
+    padding: 0 12px;
+}
+.card:hover .card-text{
+    background: rgb(26, 188, 156);
+}
+.card:hover .card-price {
+    background: #7fd9c7;
+}
+.footer-card {
+    width: 350px;
+    height: 260px;
+    cursor: pointer;
+    float: left;
+    margin: calc(93px - 48px) 15px 30px;
+}
+.footer-card-img {
+    float: left;
+    margin: 15px;
+    margin-bottom: 70px;
+}
+.footer-title {
+    font-size: 18px;
+    font-family: "PlayfairDisplay", sans-serif;
+    margin-bottom: 10px;
+}
+.footer-title::after {
+    content: '';
+    background-color: rgb(26, 188, 156);
+    width: 135px;
+    height: 3px;
+    display: block;
+    margin: 20px, auto;}
+.footer-text {
+    margin-bottom: 10px;
+    font-family: "PlayfairDisplay", sans-serif;
+}
+.read_more {
+    background: #7fd9c7;
+    color: white;
+    font-size: 20px;
+    font-family: "PlayfairDisplay", sans-serif;
+    line-height: 1.2;
+    padding: 10px 20px;
+    width: 160px;
+    height: 50px;
+}
