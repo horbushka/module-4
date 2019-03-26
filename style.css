@@ -12,19 +12,17 @@
     display: block;
     font-family: sans-serif;
 }
-.mart {
+.logo {
     float: left;
-    text-transform: uppercase;
     margin-left: 15px;
-    font-size: 18px;
 }
 .menu {
     text-transform: uppercase;
     list-style: none;
+    font-family: sans-serif;
     margin-right: 15px;
     float: right;
     font-size: 16px;
-
 }
 .menu-item {
     display: inline-block;
@@ -34,9 +32,8 @@
 .menu-link {
     text-decoration: none;
 }
-.menu-link-home {
+.menu a:hover {
     color: rgb(26, 188, 156);
-    text-decoration: none;
 }
 .clearfix {
     margin-top: 100px;
@@ -62,19 +59,20 @@
     margin: 20px auto;
 }
 .card{
-    width: 255px;
-    height: 320px;
     cursor: pointer;
     float: left;
-    margin: calc(93px - 48px) 15px 30px;
+    margin: calc(93px - 48px) 15px -15px;
 }
 .card-img {
     margin-bottom: 0;
+    overflow: hidden;
+    width: 255px;
+    height: 285px;
 }
 .card-text {
     line-height: calc(320px - 280px);
     background-color: #323232;
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Roboto", sans-serif;
     transition-duration: 0,3s;
 }
